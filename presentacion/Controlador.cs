@@ -7,4 +7,12 @@ class Controlador{
         this._sistema = sistema;
         this._vista = vista;
     }
+
+    void CasodeUso1(){
+
+    }
+
+    void CasodeUso2(){
+        
+    }
 }
