@@ -6,10 +6,11 @@ class Sistema{
 
     //metodos de un lenguaje empresarial
 
-    int Metodo1(int param1, int param2){
+    public int SumaDataONo(DataModel data){
 
-        if(param1 > 7) return -3;
+        if(data.a > 7) return -3;
+        if(data.SonIguales()) return 5;
 
-        return param1 + param2;
+        return data.a + data.b;
     }
 }
